@@ -1,10 +1,8 @@
 # Udacity-Front-End-Development-Nanodegree
 All Udacity Projects 
 --------------------------------------------------------
-#project 1
-#project 2
-#project 3
-#project 4
-#project 5
-#project 6
-#project 7
+Personal Blog Website
+Landing Page
+Weather Journal App
+Evaluate A News Article with Natural Language Processing
+Capstone - Travel App
