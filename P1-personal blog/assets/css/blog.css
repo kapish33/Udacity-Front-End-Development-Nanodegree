@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0px;
+  
+}
+
+.box {
+  background-color:#fff;
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box:nth-child(even) {
+  background-color: #ccc;
+  color: #000;
+}
+
+.wrapper {
+  width: 90vw;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(6, 2fr);
+  grid-template-rows: 200px 200px 200px;
+  grid-auto-flow: column;
+  margin: 0 auto;
+}
+
+figcaption {
+  display: none;
+}

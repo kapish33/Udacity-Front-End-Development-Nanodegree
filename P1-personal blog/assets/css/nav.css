@@ -1,0 +1,13 @@
+
+nav {
+  background-color: cadetblue;
+  margin: 0.5rem 0;
+
+}
+ul {
+  height: 7vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}

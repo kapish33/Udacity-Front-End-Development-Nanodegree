@@ -1,0 +1,123 @@
+@import "nav.css";
+@import "blog.css";
+@import "footer.css";
+@import "card.css";
+
+
+* {
+  margin: 0;
+  padding: 0;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+}
+a{text-decoration: none;
+color: black;}
+ul {
+  list-style: none;
+}
+/* Anything smaller than first breakpoint 600px */
+.container {
+  height: 90vh;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-areas: 
+  'header header header'
+  'aside aside aside'
+  'main main main'
+  'footer footer footer';
+}
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+header {
+  grid-area: header;
+}
+aside {
+  grid-area: aside;
+}
+
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+  display: flex;
+  flex-direction: column;
+}
+
+.nestedGrid {
+display: flex;
+justify-content: space-evenly;
+}
+
+.nested {
+  background: url('https://i.redd.it/b3esnz5ra34y.jpg') no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  margin: 1rem;
+}
+
+
+/* Medium Screens */
+@media (min-width: 600px) and (max-width:900px) {
+  .container {
+    height: 90vh;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    'header header header'
+    'aside aside aside'
+    'main main main'
+    'footer footer footer';
+  }
+}
+
+/* Large Screens */
+@media (min-width:901px) {
+  .container {
+    height: 90vh;
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas: 
+    'header header header'
+    'aside main main'
+    'footer footer footer';
+  }
+}
+
+p {
+  font-weight: bold;
+  text-decoration: underline;
+  font-weight: bold;
+font-style: italic;
+}
+
+button {
+  height: 50px;
+  width: 200px;
+  background-color: green;
+  border: 0 ;
+  font-size: 1rem;
+  color: white;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+}
+
+
+img {
+  padding: 1rem;
+}
+.big {
+  font-size: 1rem;
+  color: blue;
+}
+
