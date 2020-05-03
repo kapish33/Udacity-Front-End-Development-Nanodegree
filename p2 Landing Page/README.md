@@ -9,11 +9,11 @@ JAvaScript
 
 ##Fuctionalitirs 
 
--Navigation
--Dynamic Active Class
+-Navigation ,
+-Dynamic Active Class,
 -Scrolling Effect
 
-## Work Done On It
+## Work Had Been Done On It
 Converted The Basic Static Web Project To Dynamic Project
 
 ## How TO Use This:
